@@ -108,3 +108,20 @@ body {
     padding: 20px;
     width: 80%;
 }
+
+.panel_derecho button {
+    background-color: #1a3b71;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+}
