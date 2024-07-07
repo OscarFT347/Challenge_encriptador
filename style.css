@@ -53,3 +53,35 @@ body {
     resize: none;
     width: 80%;
 }
+
+.botones {
+    align-items: center;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 75%;
+}
+
+.botones button {
+    border-radius: 100px;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    gap: 16px;
+    justify-content: center;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+}
+
+.botones .encriptar {
+    background-color: #1a3b71;
+    color: white;
+}
+
+.botones .desencriptar {
+    background-color: #e0e0e0;
+    color: #333;
+}
