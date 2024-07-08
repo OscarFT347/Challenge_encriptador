@@ -47,6 +47,7 @@ body {
 .panel_izquierdo textarea {
     border: 1px solid #ddd;
     border-radius: 5px;
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     height: 60%;
     margin-bottom: 20px;
@@ -112,6 +113,8 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
     height: 60%;
     justify-content: center;
     overflow: auto;
@@ -207,5 +210,9 @@ body {
     .botones button {
         margin-bottom: 10px;
         width: 100%;
+    }
+
+    .panel_derecho .output{
+        font-size: 20px;
     }
 }
