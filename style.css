@@ -183,3 +183,29 @@ body {
         display: none;
     }
 }
+
+@media (max-width: 400px) {
+    .encriptador {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .panel_izquierdo {
+        max-width: 100%;
+    }
+
+    .panel_izquierdo textarea {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .botones {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .botones button {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
