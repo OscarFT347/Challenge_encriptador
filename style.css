@@ -81,9 +81,17 @@ body {
     color: white;
 }
 
+.botones .encriptar:hover{
+    background-color: #6c96d9;
+}
+
 .botones .desencriptar {
     background-color: #e0e0e0;
     color: #333;
+}
+
+.botones .desencriptar:hover{
+    background-color: #a4c5ea;
 }
 
 .panel_derecho {
@@ -140,4 +148,8 @@ body {
     text-align: center;
     text-decoration: none;
     width: 50%;
+}
+
+.panel_derecho button:hover{
+    background-color: #6c96d9;
 }
