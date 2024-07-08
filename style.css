@@ -155,3 +155,31 @@ body {
 .panel_derecho button:hover{
     background-color: #6c96d9;
 }
+
+@media (max-width: 1200px) {
+    .encriptador {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo {
+        height: auto;
+    }
+
+    .panel_izquierdo {
+        max-width: 100%;
+    }
+
+    .botones {
+        width: 90%;
+    }
+
+    .panel_derecho {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .panel_derecho .sin_texto img {
+        display: none;
+    }
+}
